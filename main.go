@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-
+	//beego.Run()
 	beego.Run("0.0.0.0:1111")
 
 }
