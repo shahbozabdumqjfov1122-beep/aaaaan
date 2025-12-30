@@ -4,11 +4,11 @@ import (
 	beego "github.com/beego/beego/v2/server/web"
 )
 
-type MainController struct {
+type BoshController struct {
 	beego.Controller
 }
 
-func (c *MainController) Get() {
+func (c *BoshController) Get() {
 
-	c.TplName = "index.html"
+	c.TplName = "1.html"
 }
